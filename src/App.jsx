@@ -7,10 +7,10 @@ export default App
 
 export function App () {
   return (
-  <>
+  <main className='w-screen h-screen flex justify-center p-4'>
 
     <Console />
 
-  </>
+  </main>
   )
 }

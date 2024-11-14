@@ -1,5 +1,8 @@
-export function MessageHistory ({ text }) {
+export function MessageHistory ({ message }) {
+  console.log(message)
   return (
-    <p className="bg-red-950 odd:bg-[#505050]">{ text }</p>
+
+    <p className="border-b-[1px] border-[#1f2d42] rounded-md pl-2 pb-1"><span className="text-white/40">{`${message.sended}`}:</span> {`${message.content}`}</p>
+
   )
 }
