@@ -1,10 +1,16 @@
+import { MessageHistory } from './Components/Terminal/MessageHistory'
+import { Console } from './Components/Terminal/Console'
 import './main.css'
+import React, { useState } from 'react'
+
+export default App
 
 export function App () {
   return (
   <>
-    <label htmlFor="1">I: </label>
-    <input className='bg-[#303030]' type="text" name="" id="1" />
+
+    <Console />
+
   </>
   )
 }
